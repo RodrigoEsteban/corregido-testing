@@ -129,7 +129,7 @@ public class Login extends javax.swing.JFrame {
        
         String usuario ="admin";
         String contrasena = "1234";
-        String Pass = null;
+        String pass = null;
         Pass = new String (jPasswordField1.getPassword());
         
         if(jTextField1.getText().equals(usuario)&&Pass.equals(contrasena)){
