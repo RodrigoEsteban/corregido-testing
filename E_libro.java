@@ -131,7 +131,7 @@ public class E_libro extends javax.swing.JFrame {
     conectar cc= new conectar();
     Connection conn = cc.conexion();
     String eliminar= jTextField1.getText();
-    String Eliminar1 = "DELETE * FROM stock WHERE codigo = '" + eliminar + "'";
+    String eliminar1 = "DELETE * FROM stock WHERE codigo = '" + eliminar + "'";
     
     
     
