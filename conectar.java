@@ -15,15 +15,15 @@ import java.sql.SQLException;
  */
 public class conectar {
     //instanciacion de variable
-    Connection conectar=null;
+    Connection conectar1=null;
     //genera la conexión a la base de datos
     public Connection conexion(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conectar=DriverManager.getConnection("jdbc:mysql://localhost/biblioteca","root","A-hamode2006");
+            conectar1=DriverManager.getConnection("jdbc:mysql://localhost/biblioteca","root","A-hamode2006");
         } catch (ClassNotFoundException | SQLException e) {
             System.out.print("Error");
         }
-        return conectar;
+        return conectar1;
     }
 }
