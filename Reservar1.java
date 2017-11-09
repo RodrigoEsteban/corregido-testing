@@ -206,7 +206,7 @@ public class Reservar1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTable Listado_reserva;
+    public javax.swing.JTable Listado_reserva;
     private javax.swing.JButton btn_Buscar;
     private javax.swing.JButton btn_Nuevo_usuario;
     private javax.swing.JButton btn_Validar;
